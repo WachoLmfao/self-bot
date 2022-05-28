@@ -17,3 +17,5 @@ async def on_ready():
  #Do stuff here 
     
 client.run(TOKEN)
+
+#dont forget to type "pip install -U discord.py-self" in the console, otherwise it wont work

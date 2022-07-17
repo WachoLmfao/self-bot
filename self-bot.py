@@ -34,10 +34,6 @@ async def on_ready():
 async def on_message_delete(message):
   print(f"Message deleted: {message.content} by {message.author}") #When a message is deleted, it prints its content and author
 
-@bot.command()
-async def devtab(ctx):
-  await ctx.send("https://replit.com/@justunk/py#main.py") #devtab
-
 bot.run("TOKEN_HERE") #and place your self bots token here
 
 #also type "pip install -U discord.py-self" in the console before launching it !
